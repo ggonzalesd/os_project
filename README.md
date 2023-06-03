@@ -6,16 +6,14 @@
 Run the docker image for Data Layer
 
 ```sh
-docker run -d \
-  --name mongo \
-  -p 27018:27017 \
-  mongodb/mongodb-community-server:6.0.4-ubi8
+cd data_layer
+sh start-docker.sh
+docker exec -it mongo sh
 ```
 
-Copy all `json` files to the container
+Inside Mongo Container
 
-* assistants.json
-* clothes.json
-* orders.json
-* sedes.json
-* users.json
+```sh
+cd /mnt
+sh create-collections.sh
+```
