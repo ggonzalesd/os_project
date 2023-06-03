@@ -1,0 +1,100 @@
+{"id": 1, "name": "Dendrohyrax brucel", "company": "Schiller-Hintz", "type": "suit", "price": 22.199}
+{"id": 2, "name": "Balearica pavonina", "company": "Hilpert-Dooley", "type": "coat", "price": 18.399}
+{"id": 3, "name": "Erethizon dorsatum", "company": "Goldner Group", "type": "socks", "price": 30.899}
+{"id": 4, "name": "Ovis ammon", "company": "Bartell Group", "type": "dress", "price": 24.199}
+{"id": 5, "name": "Geochelone radiata", "company": "Marks Inc", "type": "uniform", "price": 9.399}
+{"id": 6, "name": "Connochaetus taurinus", "company": "Runte and Sons", "type": "cap", "price": 16.799}
+{"id": 7, "name": "Macaca radiata", "company": "Boyle Inc", "type": "suit", "price": 12.299}
+{"id": 8, "name": "Lama pacos", "company": "Dibbert-Hane", "type": "hat", "price": 9.299}
+{"id": 9, "name": "Pycnonotus barbatus", "company": "Trantow, Schmitt and Little", "type": "suit", "price": 29.299}
+{"id": 10, "name": "Boselaphus tragocamelus", "company": "Abernathy Group", "type": "sweater", "price": 27.599}
+{"id": 11, "name": "Cordylus giganteus", "company": "Mraz and Sons", "type": "socks", "price": 12.199}
+{"id": 12, "name": "Eumetopias jubatus", "company": "Gleason and Sons", "type": "shorts", "price": 14.899}
+{"id": 13, "name": "Alligator mississippiensis", "company": "Parker, Welch and Dibbert", "type": "hat", "price": 17.099}
+{"id": 14, "name": "Vicugna vicugna", "company": "Little, Nienow and Mraz", "type": "shorts", "price": 27.499}
+{"id": 15, "name": "Otaria flavescens", "company": "Kreiger Inc", "type": "hat", "price": 15.699}
+{"id": 16, "name": "Anas punctata", "company": "Rolfson, Lindgren and Streich", "type": "uniform", "price": 9.099}
+{"id": 17, "name": "Cyrtodactylus louisiadensis", "company": "Hoppe, Rau and Cronin", "type": "hat", "price": 17.699}
+{"id": 18, "name": "Phascogale calura", "company": "Cruickshank Group", "type": "shorts", "price": 16.199}
+{"id": 19, "name": "Sterna paradisaea", "company": "Upton Group", "type": "coat", "price": 20.399}
+{"id": 20, "name": "Snycerus caffer", "company": "Botsford, Koch and Williamson", "type": "jeans", "price": 11.499}
+{"id": 21, "name": "Ursus arctos", "company": "Ullrich, Mills and Vandervort", "type": "shorts", "price": 18.599}
+{"id": 22, "name": "Ploceus rubiginosus", "company": "Beatty Inc", "type": "shorts", "price": 29.099}
+{"id": 23, "name": "Prionace glauca", "company": "Tremblay, Grady and Skiles", "type": "sweater", "price": 24.699}
+{"id": 24, "name": "Phalacrocorax varius", "company": "Wilderman-Huels", "type": "shorts", "price": 19.899}
+{"id": 25, "name": "Cacatua tenuirostris", "company": "Wiza, Nader and Stanton", "type": "t-shirt", "price": 8.399}
+{"id": 26, "name": "Sula nebouxii", "company": "Graham, Goodwin and Dickens", "type": "sweater", "price": 8.199}
+{"id": 27, "name": "Halcyon smyrnesis", "company": "Lubowitz Group", "type": "sweater", "price": 23.699}
+{"id": 28, "name": "Leprocaulinus vipera", "company": "Schulist Inc", "type": "jacket", "price": 9.799}
+{"id": 29, "name": "Orcinus orca", "company": "Gorczany Group", "type": "jacket", "price": 21.599}
+{"id": 30, "name": "Elephas maximus bengalensis", "company": "Hoeger-Reichel", "type": "suit", "price": 17.399}
+{"id": 31, "name": "Canis mesomelas", "company": "Olson Inc", "type": "cap", "price": 26.299}
+{"id": 32, "name": "Leprocaulinus vipera", "company": "Cruickshank-Labadie", "type": "uniform", "price": 14.499}
+{"id": 33, "name": "Francolinus coqui", "company": "Jaskolski, Padberg and Ankunding", "type": "sweater", "price": 29.199}
+{"id": 34, "name": "Drymarchon corias couperi", "company": "Nader-Hoeger", "type": "hat", "price": 31.099}
+{"id": 35, "name": "Vulpes chama", "company": "Kuhic and Sons", "type": "jacket", "price": 12.399}
+{"id": 36, "name": "Macropus rufogriseus", "company": "Goodwin-Blanda", "type": "coat", "price": 31.299}
+{"id": 37, "name": "Haliaetus vocifer", "company": "OKon, Lindgren and Zboncak", "type": "jacket", "price": 25.199}
+{"id": 38, "name": "Lasiodora parahybana", "company": "Erdman, Dicki and Jast", "type": "jacket", "price": 11.899}
+{"id": 39, "name": "Varanus sp.", "company": "Hackett Inc", "type": "jeans", "price": 17.099}
+{"id": 40, "name": "Sceloporus magister", "company": "Vandervort, Borer and Emard", "type": "suit", "price": 16.099}
+{"id": 41, "name": "Anser anser", "company": "Christiansen LLC", "type": "jeans", "price": 10.499}
+{"id": 42, "name": "Aquila chrysaetos", "company": "Gislason-Schinner", "type": "shorts", "price": 29.499}
+{"id": 43, "name": "Larus fuliginosus", "company": "OConnell-Little", "type": "uniform", "price": 32.499}
+{"id": 44, "name": "Catharacta skua", "company": "Ziemann-Barrows", "type": "jacket", "price": 17.599}
+{"id": 45, "name": "Branta canadensis", "company": "Olson, Steuber and Douglas", "type": "cap", "price": 17.099}
+{"id": 46, "name": "Libellula quadrimaculata", "company": "Hermann, Cole and Moore", "type": "sweater", "price": 28.499}
+{"id": 47, "name": "Conolophus subcristatus", "company": "Larson-Schoen", "type": "shorts", "price": 29.599}
+{"id": 48, "name": "Laniarius ferrugineus", "company": "Jacobson, Dietrich and Ziemann", "type": "jacket", "price": 18.899}
+{"id": 49, "name": "Varanus sp.", "company": "Yost-Hagenes", "type": "jacket", "price": 15.899}
+{"id": 50, "name": "Lamprotornis nitens", "company": "Smitham and Sons", "type": "cap", "price": 9.999}
+{"id": 51, "name": "Pavo cristatus", "company": "Gislason-Crist", "type": "shorts", "price": 16.399}
+{"id": 52, "name": "Ardea golieth", "company": "Roberts-Rowe", "type": "jacket", "price": 29.599}
+{"id": 53, "name": "Hystrix cristata", "company": "Rau and Sons", "type": "dress", "price": 23.199}
+{"id": 54, "name": "Colobus guerza", "company": "Lockman, Gleichner and Schuppe", "type": "jeans", "price": 29.999}
+{"id": 55, "name": "Hyaena brunnea", "company": "Rippin, Beer and Mitchell", "type": "jeans", "price": 26.799}
+{"id": 56, "name": "Deroptyus accipitrinus", "company": "Hermann-Hilll", "type": "jeans", "price": 30.399}
+{"id": 57, "name": "Cebus nigrivittatus", "company": "Kiehn and Sons", "type": "jeans", "price": 29.199}
+{"id": 58, "name": "Procyon lotor", "company": "Little, Price and Abshire", "type": "dress", "price": 24.399}
+{"id": 59, "name": "Cyrtodactylus louisiadensis", "company": "Harber Group", "type": "t-shirt", "price": 30.799}
+{"id": 60, "name": "Trichoglossus haematodus moluccanus", "company": "Mante, Runolfsson and Cruickshank", "type": "sweater", "price": 32.799}
+{"id": 61, "name": "Vanellus sp.", "company": "Turcotte-Hoppe", "type": "coat", "price": 15.899}
+{"id": 62, "name": "Antechinus flavipes", "company": "Bailey LLC", "type": "jeans", "price": 25.599}
+{"id": 63, "name": "Columba palumbus", "company": "Kris and Sons", "type": "dress", "price": 15.299}
+{"id": 64, "name": "Tayassu pecari", "company": "Haag-Jenkins", "type": "jacket", "price": 15.599}
+{"id": 65, "name": "Actophilornis africanus", "company": "Gorczany, Larson and Jast", "type": "t-shirt", "price": 18.499}
+{"id": 66, "name": "Phoca vitulina", "company": "Muller Inc", "type": "cap", "price": 24.199}
+{"id": 67, "name": "Funambulus pennati", "company": "Satterfield Group", "type": "dress", "price": 16.499}
+{"id": 68, "name": "Dendrocitta vagabunda", "company": "Hackett-Wintheiser", "type": "jeans", "price": 9.999}
+{"id": 69, "name": "Graspus graspus", "company": "Schoen, Weimann and Kunze", "type": "coat", "price": 19.299}
+{"id": 70, "name": "Elephas maximus bengalensis", "company": "Schulist and Sons", "type": "hat", "price": 13.399}
+{"id": 71, "name": "Spizaetus coronatus", "company": "Purdy-Marvin", "type": "jacket", "price": 8.599}
+{"id": 72, "name": "Anastomus oscitans", "company": "Jacobs, Ledner and Wolf", "type": "socks", "price": 24.399}
+{"id": 73, "name": "Irania gutteralis", "company": "Roob, Walker and Trantow", "type": "uniform", "price": 32.299}
+{"id": 74, "name": "Tamiasciurus hudsonicus", "company": "Borer, Wintheiser and Oberbrunner", "type": "suit", "price": 28.299}
+{"id": 75, "name": "Vulpes chama", "company": "Franecki LLC", "type": "hat", "price": 32.599}
+{"id": 76, "name": "Phalaropus fulicarius", "company": "Beatty LLC", "type": "coat", "price": 16.799}
+{"id": 77, "name": "Heloderma horridum", "company": "Feest-Kilback", "type": "socks", "price": 23.499}
+{"id": 78, "name": "Nannopterum harrisi", "company": "Marquardt, Miller and Reilly", "type": "sweater", "price": 19.299}
+{"id": 79, "name": "Aepyceros mylampus", "company": "Rohan-Schimmel", "type": "hat", "price": 23.699}
+{"id": 80, "name": "Sagittarius serpentarius", "company": "King Inc", "type": "shorts", "price": 25.599}
+{"id": 81, "name": "Meleagris gallopavo", "company": "Carroll-Bauch", "type": "jeans", "price": 19.499}
+{"id": 82, "name": "Macaca mulatta", "company": "Waelchi, Schuster and OKon", "type": "suit", "price": 20.899}
+{"id": 83, "name": "Ctenophorus ornatus", "company": "Spencer Group", "type": "hat", "price": 15.199}
+{"id": 84, "name": "Ourebia ourebi", "company": "Koch LLC", "type": "cap", "price": 25.399}
+{"id": 85, "name": "Creagrus furcatus", "company": "Murphy, Gottlieb and Towne", "type": "coat", "price": 26.099}
+{"id": 86, "name": "Caiman crocodilus", "company": "Rodriguez-Sporer", "type": "shorts", "price": 30.299}
+{"id": 87, "name": "Gyps bengalensis", "company": "Zemlak, Kertzmann and Blick", "type": "cap", "price": 12.899}
+{"id": 88, "name": "Rangifer tarandus", "company": "Kautzer Group", "type": "socks", "price": 14.199}
+{"id": 89, "name": "Cervus elaphus", "company": "Bauch and Sons", "type": "hat", "price": 11.199}
+{"id": 90, "name": "Ctenophorus ornatus", "company": "Langworth-Nikolaus", "type": "jacket", "price": 16.099}
+{"id": 91, "name": "Hymenolaimus malacorhynchus", "company": "Haag and Sons", "type": "sweater", "price": 9.299}
+{"id": 92, "name": "Nasua narica", "company": "Zemlak, Franecki and Emmerich", "type": "suit", "price": 23.099}
+{"id": 93, "name": "Corvus brachyrhynchos", "company": "Cole and Sons", "type": "shorts", "price": 24.599}
+{"id": 94, "name": "Carphophis sp.", "company": "Reichert, Osinski and Lueilwitz", "type": "socks", "price": 17.799}
+{"id": 95, "name": "Pandon haliaetus", "company": "Haley Inc", "type": "uniform", "price": 8.899}
+{"id": 96, "name": "Naja haje", "company": "Hilll LLC", "type": "coat", "price": 16.099}
+{"id": 97, "name": "Phalacrocorax varius", "company": "Murray and Sons", "type": "uniform", "price": 18.099}
+{"id": 98, "name": "Pelecanus conspicillatus", "company": "Hintz-Dickinson", "type": "hat", "price": 28.099}
+{"id": 99, "name": "Antilope cervicapra", "company": "Von LLC", "type": "cap", "price": 31.399}
+{"id": 100, "name": "Nucifraga columbiana", "company": "Hand, Shields and Bayer", "type": "dress", "price": 27.399}
