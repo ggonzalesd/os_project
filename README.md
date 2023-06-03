@@ -40,3 +40,11 @@ for file in $(ls *.json); do
 done;
 ```
 ![](./screenshots/data/04_execute_code.png)
+
+## Use Mongosh
+
+Inside Cotainer Run
+
+```sh
+mongosh os_project
+```
