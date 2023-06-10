@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-prettier": "^0.0.0-empty",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "mongoose": "^7.2.2"
+  }
+}
