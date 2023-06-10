@@ -48,3 +48,10 @@ Inside Cotainer Run
 ```sh
 mongosh os_project
 ```
+
+## DataLayer Screenshots
+
+Connect with terminal
+![](./screenshots/data/05_connect_1.png)
+Connect with MongoDB Compass (GUI)
+![](./screenshots/data/05_connect_2.png)
