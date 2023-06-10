@@ -1,4 +1,4 @@
-const joi = require('joi')
+const joi = require('joi');
 
 const dni = joi.number().integer().positive()
 const fullname = joi.string().min(4)
