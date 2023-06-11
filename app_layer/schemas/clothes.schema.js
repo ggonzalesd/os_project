@@ -1,13 +1,13 @@
 const joi = require('joi');
 
-const id = joi.number().integer().positive();
+const uuid = joi.string().regex(/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/).message("Must be a UUID");
 const name = joi.string().min(4);
 const company = joi.string().min(4);
 const type = joi.string().min(4);
 const price = joi.number().positive();
 
 const clothesSchema = joi.object({
-  id: id.required(),
+  uuid: uuid.required(),
   name: name.required(),
   company: company.required(),
   type: type.required(),
@@ -15,7 +15,7 @@ const clothesSchema = joi.object({
 });
 
 const clothesFindOneSchema = joi.object({
-  id: id.required()
+  uuid: uuid.required()
 })
 
 const clothesEditSchema = joi.object({

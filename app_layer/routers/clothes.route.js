@@ -17,15 +17,15 @@ router.get('/',
   }
 )
 
-router.get('/:id',
+router.get('/:uuid',
   validatorHandlerGen(clothesFindOneSchema, 'params'),
   async(req, res, next) => {
-    const { id } = req.params; 
-    clothesModel.findOne({id}).then( data => {
+    const { uuid } = req.params; 
+    clothesModel.findOne({uuid}).then( data => {
       if (data)
         res.json(data);
       else
-        throw boom.notFound(`Clothe with id '${id}' does not exist!`);
+        throw boom.notFound(`Clothe with uuid '${uuid}' does not exist!`);
     })
     .catch(err => next(err));
   }
@@ -41,17 +41,17 @@ router.post('/',
   }
 )
 
-router.put('/:id',
+router.put('/:uuid',
   validatorHandlerGen(clothesFindOneSchema, 'params'),
   validatorHandlerGen(clothesEditSchema, 'body'),
   async (req, res, next) => {
-    const { id } = req.params;
+    const { uuid } = req.params;
     const body = req.body;
-    clothesModel.findOne({id}).then( data => {
+    clothesModel.findOne({uuid}).then( data => {
       if (!data)
-        throw boom.notFound(`Clothe with id '${id}' does not exist!`);
+        throw boom.notFound(`Clothe with uuid '${uuid}' does not exist!`);
       else
-      clothesModel.updateOne({id}, body).then(data => {
+      clothesModel.updateOne({uuid}, body).then(data => {
           res.json(data);
         }).catch(err => next(err));
     })
@@ -59,11 +59,11 @@ router.put('/:id',
   }
 )
 
-router.delete('/:id',
+router.delete('/:uuid',
   validatorHandlerGen(clothesFindOneSchema, 'params'),
   async (req, res, next) => {
-    const { id } = req.params;
-    clothesModel.deleteOne({id}).then( data => {
+    const { uuid } = req.params;
+    clothesModel.deleteOne({uuid}).then( data => {
       res.json(data);
     })
     .catch(err => next(err));

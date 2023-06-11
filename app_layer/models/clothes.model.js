@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
 const clothesSchema = mongoose.Schema({
-  id: {
-    type: Number,
+  uuid: {
+    type: String,
     required: true
   },
   name: {
