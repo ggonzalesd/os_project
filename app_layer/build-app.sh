@@ -1,0 +1,1 @@
+docker build -t os_project_api:0.0.1 .
