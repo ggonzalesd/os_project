@@ -1,17 +1,33 @@
-import { environment } from './config/env';
-import useApi from './hooks/useApi';
-
-import './App.css';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import './App.sass';
+import Menu from './components/Menu';
+import Home from './routers/Home';
+import NotFound from './routers/NotFound';
+import Users from './routers/Users';
 
 function App() {
-  const url = `http://${environment.apihost}:${environment.apiport}/api/v1`;
-  const users = useApi(url+'/users');
-
   return (
-    <>
-      {users.data && users.data.map(user => <p key={user.username}>{user.username}</p>)}
-      {users.loading && <p>loading...</p> }
-    </>
+    <HashRouter>
+      <Menu />
+      <div className='router-container'>
+        <Routes>
+          <Route
+            path='/'
+            element={<Home />}
+          />
+
+          <Route
+            path='/users'
+            element={<Users />}
+          />
+
+          <Route
+            path='*'
+            element={<NotFound />}
+          />
+        </Routes>
+      </div>
+    </HashRouter>
   );
 }
 
