@@ -1,4 +1,6 @@
-import UserComponent from '../components/UserComponent';
+import Error from '../components/Error';
+import CommentComponent from '../components/CommentComponent';
+import Loading from '../components/Loading';
 import environment from './../config/env';
 import useApi from './../hooks/useApi';
 
@@ -6,19 +8,19 @@ import './route.sass';
 
 function Comments() {
   const url = `http://${environment.apihost}:${environment.apiport}/api/v1`;
-  const users = useApi(url + '/comments');
+  const comments = useApi(url + '/comments');
 
   return (
-    <div className={`container ${users.loading && 'container-center'}`}>
+    <div className={`container ${(comments.loading || comments.error) && 'container-center'}`}>
       {
-        users.loading && <span>loading...</span>
+        comments.loading && <Loading/>
       }
       {
-        users.error && <span>¡Error!</span>
+        comments.error && <Error error={comments.error}/>
       }
       {
-        users.data && users.data.map(u => (
-          <UserComponent key={u._id} user={u}/>
+        comments.data && comments.data.map( c => (
+          <CommentComponent key={c._id} comment={c} />
         ))
       }
     </div>

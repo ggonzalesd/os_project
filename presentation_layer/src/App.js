@@ -4,6 +4,8 @@ import Menu from './components/Menu';
 import Home from './routers/Home';
 import NotFound from './routers/NotFound';
 import Users from './routers/Users';
+import Comments from './routers/Comments';
+import Complaints from './routers/Complaints';
 
 function App() {
   return (
@@ -19,6 +21,16 @@ function App() {
           <Route
             path='/users'
             element={<Users />}
+          />
+
+          <Route
+            path='/comments'
+            element={<Comments />}
+          />
+
+          <Route
+            path='/complaints'
+            element={<Complaints />}
           />
 
           <Route

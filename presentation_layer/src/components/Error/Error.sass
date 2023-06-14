@@ -1,0 +1,21 @@
+.error-container
+  display: flex
+  flex-direction: column
+  align-items: center
+
+@keyframes rotating
+  0%
+    transform: rotate(5deg)
+  50%
+    transform: rotate(-5deg)
+  100%
+    transform: rotate(5deg)
+
+.error-container img
+  width: 200px
+  animation: rotating 0.4s linear infinite
+
+.error-container span
+  font-weight: bolder
+  font-size: 2rem
+  color: white

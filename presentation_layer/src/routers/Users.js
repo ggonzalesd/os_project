@@ -1,3 +1,5 @@
+import Loading from '../components/Loading';
+import Error from '../components/Error';
 import UserComponent from '../components/UserComponent';
 import environment from './../config/env';
 import useApi from './../hooks/useApi';
@@ -9,12 +11,12 @@ function Users() {
   const users = useApi(url + '/users');
 
   return (
-    <div className={`container ${users.loading && 'container-center'}`}>
+    <div className={`container ${(users.loading || users.error) && 'container-center'}`}>
       {
-        users.loading && <span>loading...</span>
+        users.loading && <Loading/>
       }
       {
-        users.error && <span>¡Error!</span>
+        users.error && <Error error={users.error}/>
       }
       {
         users.data && users.data.map(u => (
