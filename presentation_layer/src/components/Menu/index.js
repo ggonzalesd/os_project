@@ -3,7 +3,7 @@ import routes from '../../routers/routers';
 import './Menu.sass';
 
 function Menu() {
-  return (
+	return (
     <header className='app-menu'>
       <h1 className='app-menu-title'>
         <span>Os Project</span>
