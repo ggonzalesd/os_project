@@ -10,7 +10,7 @@ function Comments() {
   const url = `http://${environment.apihost}:${environment.apiport}/api/v1`;
   const comments = useApi(url + '/comments');
 
-  console.log(process.env.API_HOST);
+  console.log(process.env.REACT_APP_API_HOST);
 
   return (
     <div className={`container ${(comments.loading || comments.error) && 'container-center'}`}>
