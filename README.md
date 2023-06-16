@@ -1,37 +1,32 @@
 # Os Project
 
+### Network configuration
+
+Execute the following command to check if you have the network created.
+
+```sh
+docker network ls
+```
+
+```
+NETWORK ID     NAME        DRIVER    SCOPE
+2170fe35ccd8   bridge      bridge    local
+052821d2d427   dockernet   bridge    local
+83976fd40b77   host        host      local
+3cfb773db75e   none        null      local
+```
+If you don't have `docketnet` execute the following command.
+
+```sh
+docker network create --attachable dockernet
+```
 
 ## Data Layer
 
-Run the docker image for Data Layer
+Download the project and execute `copy-to-docker.cmd` inside of `data_layer` folder.
+![](./screenshots/data/01_start_docker.png)
 
-### Linux Setup
-
-```sh
-cd data_layer
-sh start-docker.sh
-docker exec -it mongo sh
-```
-
-Inside Mongo Container
-
-```sh
-cd /mnt
-sh create-collections.sh
-```
-
-### Windows Setup
-
-Create the container
-![](./screenshots/data/01-create-container.png)
-
-Download Project
-![](./screenshots/data/02_download_project.png)
-
-Run Script `copy-to-docker.cmd`
-![](./screenshots/data/03_execute_script.png)
-
-Run next Code in the container terminal
+Then execute the following command in the container terminal.
 ```sh
 cd /mnt
 for file in $(ls *.json); do
@@ -39,19 +34,34 @@ for file in $(ls *.json); do
   mongoimport -c ${COLLECTION} -d os_project --file $file
 done;
 ```
-![](./screenshots/data/04_execute_code.png)
+![](./screenshots/data/02_load_collections.png)
 
-## Use Mongosh
+## App Layer
 
-Inside Cotainer Run
+inside `app_layer` folder create a file with the name `.env` with the following content.
 
 ```sh
-mongosh os_project
+PORT=3000
+HOST_MONGO_DB=mongo
+PORT_MONGO_DB=27017
+NAME_MONGO_DB=os_project
 ```
+![](./screenshots/app/01_create_env.png)
 
-## DataLayer Screenshots
+The exectute `windows-start.cmd`
+This could take some minutes.
 
-Connect with terminal
-![](./screenshots/data/05_connect_1.png)
-Connect with MongoDB Compass (GUI)
-![](./screenshots/data/05_connect_2.png)
+![](./screenshots/app/02_start_container.png)
+
+## Screenshot
+![](./screenshots/app/03_check_api.png)
+
+You can try with differente request
+
+```sh
+http://localhost:3000/api/v1/users
+http://localhost:3000/api/v1/comments
+http://localhost:3000/api/v1/complaints
+http://localhost:3000/api/v1/clothes
+http://localhost:3000/api/v1/sedes
+```
