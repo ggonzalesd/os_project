@@ -53,8 +53,24 @@ This could take some minutes.
 
 ![](./screenshots/app/02_start_container.png)
 
+## Presentation Layer
+
+inside `presentation_layer` folder create a file with the name `.env` with the following content.
+
+```sh
+REACT_APP_API_HOST=localhost
+REACT_APP_API_PORT=3000
+```
+![](./screenshots/presentation/01_create_env_variables.png)
+
+The exectute `windows-start.cmd`
+This could take some minutes.
+
+![](./screenshots/presentation/02_create_docker_container.png)
+
 ## Screenshot
 ![](./screenshots/app/03_check_api.png)
+![](./screenshots/presentation/03_example.png)
 
 You can try with differente request
 
