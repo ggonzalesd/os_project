@@ -69,7 +69,16 @@ This could take some minutes.
 ![](./screenshots/presentation/02_create_docker_container.png)
 
 ## Screenshot
-![](./screenshots/app/03_check_api.png)
+
+### CRUD
+
+![](./screenshots/app/04_get.png)
+![](./screenshots/app/04_post.png)
+![](./screenshots/app/04_put.png)
+![](./screenshots/app/04_delete.png)
+
+### Frontend
+
 ![](./screenshots/presentation/03_example.png)
 
 You can try with differente request
